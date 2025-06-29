@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>The TikTok</title>
@@ -8,6 +9,7 @@
   <body>
 
     <!-- This is the sideBar  -->
+     <header>
     <aside>
 
         <!-- This contains three parts -->
@@ -16,14 +18,14 @@
 
             <!-- Holds Searchbar and Title -->
           <div id="Caption">
-            <span>
+            <span id="title">
               <i class="fa-brands fa-tiktok"></i>
-              <h1 id="title">TikTok</h1>
+              <h1>TikTok</h1>
             </span>
 
-            <span>
+            <span id="searchBox">
               <i class="fa-brands fa-searchengin"></i>
-              <input type="search" />
+              <input type="search" placeholder="Search" />
             </span>
           </div>
 
@@ -69,7 +71,7 @@
               <span>Live</span>
             </a>
 
-            <a href="#">
+            <a href="#" id="sideProfilePic">
               <li><img src="./img/profilePic.jpg" alt="" /></li>
               <span>Profile</span>
             </a>
@@ -84,7 +86,7 @@
           <div id="followingAccounts">
             <a href="#">
               <span class="followingAccountsProfile">
-                <img src="" alt="" />
+                <img src="https://i.pinimg.com/736x/02/54/60/02546015b1f087efefd7bafd155d0156.jpg" alt="" />
               </span>
               <li>
                 <h2>Hello_World</h2>
@@ -94,7 +96,7 @@
 
             <a href="#">
               <span class="followingAccountsProfile">
-                <img src="" alt="" />
+                <img src="https://i.pinimg.com/736x/02/54/60/02546015b1f087efefd7bafd155d0156.jpg" alt="" />
               </span>
               <li>
                 <h2>Hello_World</h2>
@@ -104,7 +106,7 @@
 
             <a href="#">
               <span class="followingAccountsProfile">
-                <img src="" alt="" />
+                <img src="https://i.pinimg.com/736x/02/54/60/02546015b1f087efefd7bafd155d0156.jpg" alt="" />
               </span>
               <li>
                 <h2>Hello_World</h2>
@@ -117,9 +119,11 @@
       </nav>
 
     </aside>
+</header>
+<img src="img/profilePic.jpg" alt="">
 
 
-    
+
   </body>
   <script
     src="https://kit.fontawesome.com/84460ab161.js"
